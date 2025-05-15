@@ -1,9 +1,84 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="27.0.5">
   <diagram name="Page-1" id="SHMnl6VVcyAIZ3IU5v0R">
-    <mxGraphModel>
+    <mxGraphModel dx="1031" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4u_3CeKtt6nWUfpSY1GB-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4u_3CeKtt6nWUfpSY1GB-20" target="4u_3CeKtt6nWUfpSY1GB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4u_3CeKtt6nWUfpSY1GB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4u_3CeKtt6nWUfpSY1GB-8" target="4u_3CeKtt6nWUfpSY1GB-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="330" />
+              <mxPoint x="495" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4u_3CeKtt6nWUfpSY1GB-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4u_3CeKtt6nWUfpSY1GB-8" target="4u_3CeKtt6nWUfpSY1GB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4u_3CeKtt6nWUfpSY1GB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4u_3CeKtt6nWUfpSY1GB-13" target="4u_3CeKtt6nWUfpSY1GB-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="330" />
+              <mxPoint x="209" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4u_3CeKtt6nWUfpSY1GB-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4u_3CeKtt6nWUfpSY1GB-13" target="4u_3CeKtt6nWUfpSY1GB-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="330" />
+              <mxPoint x="305" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4u_3CeKtt6nWUfpSY1GB-1" value="Backend Server" style="swimlane;whiteSpace=wrap;html=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="90" width="480" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="4u_3CeKtt6nWUfpSY1GB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4u_3CeKtt6nWUfpSY1GB-1" source="4u_3CeKtt6nWUfpSY1GB-7" target="4u_3CeKtt6nWUfpSY1GB-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4u_3CeKtt6nWUfpSY1GB-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4u_3CeKtt6nWUfpSY1GB-1" source="4u_3CeKtt6nWUfpSY1GB-7" target="4u_3CeKtt6nWUfpSY1GB-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4u_3CeKtt6nWUfpSY1GB-7" value="API controller" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4u_3CeKtt6nWUfpSY1GB-1">
+          <mxGeometry x="180" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4u_3CeKtt6nWUfpSY1GB-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4u_3CeKtt6nWUfpSY1GB-1" source="4u_3CeKtt6nWUfpSY1GB-8" target="4u_3CeKtt6nWUfpSY1GB-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4u_3CeKtt6nWUfpSY1GB-8" value="Forestry roads handler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4u_3CeKtt6nWUfpSY1GB-1">
+          <mxGeometry x="180" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4u_3CeKtt6nWUfpSY1GB-13" value="Proxies" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4u_3CeKtt6nWUfpSY1GB-1">
+          <mxGeometry x="30" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4u_3CeKtt6nWUfpSY1GB-15" value="Superficial deposit data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;container=1;collapsible=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="4u_3CeKtt6nWUfpSY1GB-1">
+          <mxGeometry x="370" y="50" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4u_3CeKtt6nWUfpSY1GB-16" value="" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;network2IconShadow=1;network2bgFillColor=none;network2Icon=mxgraph.networks2.globe;network2IconW=1;network2IconH=1;" vertex="1" parent="4u_3CeKtt6nWUfpSY1GB-15">
+          <mxGeometry x="15" y="50" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4u_3CeKtt6nWUfpSY1GB-2" value="External Data Servers" style="swimlane;whiteSpace=wrap;html=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="350" width="380" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="4u_3CeKtt6nWUfpSY1GB-6" value="OpenStreetMap" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.svgrepo.com/show/342087/openstreetmap.svg;shadow=0;imageBorder=none; editableCssRules=.*;comic=0;imageBackground=none;" vertex="1" parent="4u_3CeKtt6nWUfpSY1GB-2">
+          <mxGeometry x="14" y="50" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4u_3CeKtt6nWUfpSY1GB-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.svgrepo.com/show/399319/wms.svg;" vertex="1" parent="4u_3CeKtt6nWUfpSY1GB-2">
+          <mxGeometry x="110" y="50" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4u_3CeKtt6nWUfpSY1GB-5" value="Forest roads" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.svgrepo.com/show/399315/wfs.svg;" vertex="1" parent="4u_3CeKtt6nWUfpSY1GB-2">
+          <mxGeometry x="205" y="50" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4u_3CeKtt6nWUfpSY1GB-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/1554/1554121.png;" vertex="1" parent="4u_3CeKtt6nWUfpSY1GB-2">
+          <mxGeometry x="300" y="50" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4u_3CeKtt6nWUfpSY1GB-20" value="Incoming request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
