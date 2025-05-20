@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="27.0.5">
   <diagram name="Page-1" id="BtbPCRgPrWzy0crtDdK-">
-    <mxGraphModel dx="1581" dy="981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
             <mxPoint x="300" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0RlzfBuL6oLaxBtVv_V1-3" value="Application Server" style="swimlane;whiteSpace=wrap;html=1;expand=1;collapsible=0;" parent="1" vertex="1">
+        <mxCell id="0RlzfBuL6oLaxBtVv_V1-3" value="Application server" style="swimlane;whiteSpace=wrap;html=1;expand=1;collapsible=0;" parent="1" vertex="1">
           <mxGeometry x="290" y="240" width="200" height="400" as="geometry">
             <mxRectangle x="290" y="240" width="160" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -33,7 +33,7 @@
         <mxCell id="6iKeF8XoxHfNSxwBO0dx-13" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.client;" parent="6iKeF8XoxHfNSxwBO0dx-15" vertex="1">
           <mxGeometry x="65.62" y="50" width="68.76" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="6iKeF8XoxHfNSxwBO0dx-27" value="External Providers" style="swimlane;whiteSpace=wrap;html=1;expand=1;collapsible=0;" parent="1" vertex="1">
+        <mxCell id="6iKeF8XoxHfNSxwBO0dx-27" value="External providers" style="swimlane;whiteSpace=wrap;html=1;expand=1;collapsible=0;" parent="1" vertex="1">
           <mxGeometry x="530" y="240" width="200" height="400" as="geometry" />
         </mxCell>
         <mxCell id="6iKeF8XoxHfNSxwBO0dx-18" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/1554/1554121.png;" parent="6iKeF8XoxHfNSxwBO0dx-27" vertex="1">
@@ -45,7 +45,7 @@
         <mxCell id="6DhEAvd5gJPquxKEEZNW-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.svgrepo.com/show/399315/wfs.svg;" parent="6iKeF8XoxHfNSxwBO0dx-27" vertex="1">
           <mxGeometry x="65" y="315" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="KoHlsUnIG2D1C3uR9SO1-2" value="OpenStreetMap" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.svgrepo.com/show/342087/openstreetmap.svg;shadow=0;imageBorder=none; editableCssRules=.*;comic=0;imageBackground=none;" vertex="1" parent="6iKeF8XoxHfNSxwBO0dx-27">
+        <mxCell id="KoHlsUnIG2D1C3uR9SO1-2" value="OpenStreetMap" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.svgrepo.com/show/342087/openstreetmap.svg;shadow=0;imageBorder=none; editableCssRules=.*;comic=0;imageBackground=none;" parent="6iKeF8XoxHfNSxwBO0dx-27" vertex="1">
           <mxGeometry x="65" y="40" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="6iKeF8XoxHfNSxwBO0dx-29" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="6iKeF8XoxHfNSxwBO0dx-19" target="6iKeF8XoxHfNSxwBO0dx-18" edge="1">
